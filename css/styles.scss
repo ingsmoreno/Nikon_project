@@ -1,0 +1,177 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: #cccccc73;
+}
+
+//--HEADER---//
+header{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+h1{
+    text-align: center;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.h1-include{
+    text-align: left;
+}
+h2{
+    text-align: center;
+}
+h2 strong{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+//---MENU INCLUDE--//
+nav{
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+nav ul li{
+    list-style: decimal;    
+}
+
+nav ol li{
+    margin-left: 20px ;
+    list-style: disc;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #00000080;
+}
+
+nav ul li a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+
+//----CONTAINER--//
+
+.container{
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px grey;
+    background: white;
+}
+
+.container-include{
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 10px grey;
+    background: white;
+}
+
+
+
+
+//---TABLE AND CONTENT----//
+table{
+    width: 80%;
+    margin: auto;
+    border:1px solid #ccc;
+}
+.specs{
+    width: 60%;
+}
+
+.specs, th, td{
+    margin: auto;
+    padding: 10px;
+    border:1px solid #ccc;
+    justify-content: center;
+}
+th{
+    width: 25%;
+}
+
+.specs ul li{
+    list-style: inside;
+}
+
+span{
+    font-size: 16px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong{
+    font-size: 14px;
+}
+
+img{
+    width: 80%;
+}
+
+//---BUTTONS---//
+
+.button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    background: #fd0;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #e9ce1e;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-index{
+    display: block;
+    margin: 10px 10px 10px 115px;
+    width: 150px;
+    background: #fd0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-index:hover{
+    background: #e9ce1e;
+}
+
+.button-index a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
